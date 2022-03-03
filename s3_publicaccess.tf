@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "publicaccess" {
   bucket = "examplebuckettftest"
-  acl    = "public-read"
+  acl    = "private"
   
   versioning {
     enabled = true
