@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "privateaccess" {
+resource "aws_s3_bucket" "publicaccess" {
   bucket = "examplebuckettftest"
   acl    = "private"
   
