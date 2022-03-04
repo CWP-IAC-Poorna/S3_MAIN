@@ -1,9 +1,8 @@
 resource "aws_s3_bucket" "unrestricted" {
   bucket = "examplebuckettftest"
-  acl    = "public-read-write"
-  
+  acl    = "public"
   versioning {
-    enabled = true
+    enabled = false
   }
   
   logging {
